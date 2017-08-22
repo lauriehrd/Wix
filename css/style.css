@@ -1,0 +1,190 @@
+*{
+
+	box-sizing: border-box;
+}
+
+body
+{
+margin: 0;
+padding: 0
+}
+
+header{
+	background-image: url(https://unsplash.it/6016/4000?image=1014);
+	background-attachment: fixed;
+	background-size: cover;
+	max-width: 100%;
+
+}
+
+nav {
+
+word-spacing: 20px;
+font-size: 13px;
+
+}
+
+.p-3{
+
+	line-height: 250%;
+	background-color: #333b50;
+	color: white;
+font-family: 'Alegreya Sans SC', sans-serif;
+word-spacing: 3px;
+z-index: 1;
+transform: translateY(50%);
+position: relative;
+top: -180px;
+border:1px solid #333b50;
+margin: auto;
+
+}
+
+
+.bouton:hover{
+	background-color: #00d646;
+}
+
+.bouton{
+width: 200px;
+/*margin-bottom: 50px;
+*/border:1px solid #00d646;
+margin: auto;
+position: relative;
+left:5px;
+
+}
+
+.r{
+	font-size: 55px;
+	font-weight: bold;
+	color: #00d646;
+}
+
+.graphique{
+
+	background-image: url(../images/photo4.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	max-width: 100%;
+	padding-top: 200px;
+	padding-bottom: 180px;
+	background-position: center center;
+}
+
+ul{
+	list-style: none;
+}
+
+.portfolio{
+
+	background-image: url(https://unsplash.it/5300/3372?image=541);
+	background-attachment: fixed;
+	background-size: cover;
+	max-width: 100%;
+	padding-right: 150px;
+	padding-left: 150px;	
+	padding-top: 180px;
+
+}
+
+img{
+	width: 33%;
+		padding-top: 50px;
+		position: relative;
+		top: 50px;
+	
+}
+
+span{
+display:flex;
+flex-direction: column;
+}
+
+h3{
+font-size: 50px;
+	padding-top: 160px;
+font-family: 'Alegreya Sans SC:800', sans-serif;
+		letter-spacing: 5px;
+		position: relative;
+		right: 20px;
+
+}
+
+main h1{
+	font-size: 50px;
+	padding-top: 80px;
+}
+
+
+h2{
+
+	font-family: 'Alegreya Sans SC', sans-serif;
+	letter-spacing: 4px;
+	font-size: 35px;
+
+}
+
+h1{
+		font-family: 'Alegreya Sans SC:800', sans-serif;
+		letter-spacing: 5px;
+}
+
+
+.graphique p{
+	margin: auto;
+	color: black;
+}
+
+.date1, .date2, .date3, .date4, .date5{
+	color: #00d646;
+}
+
+.texte1{
+	font-family: 'Alegreya Sans SC:100', sans-serif;
+	font-size: 13px;
+	color: #b3bbca;
+}
+
+.barre{
+	z-index: 1;
+	position: relative;
+	font-size: 14px;
+
+
+}
+
+.progress-bar-striped{
+padding-bottom: 10px;
+font-size: 14px;
+}
+
+.portfolio a{
+	color: lightgray;
+}
+
+img:hover{
+  transition:1s;
+  opacity:0.6;
+  transform: scale(1.25);
+
+}
+
+.portfolio h1{
+font-family: 'Alegreya Sans SC:800', sans-serif;
+		letter-spacing: 5px;
+		position: relative;
+		right: 40px;
+	}
+
+.debut h1{	
+	font-size: 80px;
+	margin: auto;
+	position: relative;
+	left: 60px;
+	
+	}
+
+.liste{
+	margin: auto;
+}
