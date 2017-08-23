@@ -188,3 +188,49 @@ font-family: 'Alegreya Sans SC:800', sans-serif;
 .liste{
 	margin: auto;
 }
+.contact{
+	font-size: 30px;
+	position: relative;
+}
+
+.four{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height:500px;
+  width:800px;
+  margin:0 auto;
+  background:#333b50;
+  color: white;
+  font-family: 'Alegreya Sans SC:800', sans-serif;
+  position: absolute;
+  z-index: 3;
+  left: 250px;
+
+
+}
+.bg{
+  width:50%;
+}
+.bg1 i{
+font-size:30px;
+}
+.bg1{
+margin:0 auto;
+}
+
+.imagefin{
+	background-image: url(../images/images9.jpg);
+	position: relative;
+	height: 730px;
+}
+
+.1{
+	margin-right: 600px;
+}
+
+footer{
+	background-color: #333B50;
+	padding: 10px;
+	text-align: center;
+}
